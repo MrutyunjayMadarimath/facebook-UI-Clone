@@ -1,5 +1,10 @@
+
+body{
+    font-family:  sans-serif;
+}
+
 .fs-0{
-    font-size: 4rem;
+    font-size: 3.7rem;
 }
 
 .fs-7{
@@ -18,4 +23,12 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.success-btn{
+    background-color:#3ab521;
+}
+
+input.form-control{
+    font-size: 1rem;
 }
