@@ -12,9 +12,72 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    
+<body class="bg-gray">
+<header>
 
+      <div class="d-flex bg-white p-1 align-items-center fixed-top shadow-sm" style="min-height:56px;">
+        <div class="container-lg-fluid">
+            <div class="row">
+             <div class="col d-flex align-items-center">
+                <i class="fa fa-facebook-official text-primary px-2" style="font-size:3rem;"></i>
+<!-- Search Bar -->
+                <div class="input-group ms-2">
+                    <!-- Mobile -->
+
+                    <!-- Desktop -->
+                    <span class="input-group-prep d-none d-lg-block input" type="button" id="search-menu" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                        <div class="input-group-text d-flex border-0 rounded-pill bg-gray align-items-center" style="max-height: 40px; min-width: 240px">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <p class="text-muted fs-7 m-2">Search Facebook</p>
+                        </div>
+                    </span>
+                    <!-- Searchbar dropdown -->
+                    <ul class="dropdown-menu shadow border-0 overflow-auto p-2" aria-labelledby="search-menu">
+                    <!-- Search Input -->
+                    <input type="text" class="rounded-pill border-0 dropdown-item text-muted" placeholder="Search facebook">
+                    <!-- Search results -->
+                      <!-- Result One -->
+                      <li class="my-4 overflow-auto dropdown-item">
+                        <div class="alert d-flex align-items-center justify-content-between p-1 m-0 fade show bg-white border-0" role="alert">
+                           <div class="d-flex align-items-center">
+                               <img src="https://source.unsplash.com/random/1" class="rounded-circle me-2" style="width:35px;height: 35px;" alt="">
+                               <p class="m-0 text-dark">Lorem Ipsum</p>
+                           </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                          </div>
+                      </li>
+                     <!-- Result two -->
+                       <li class="my-4 overflow-auto">
+                      <div class="alert dropdown-item d-flex align-items-center justify-content-between p-1 m-0 fade show bg-white border-0" role="alert">
+                         <div class="d-flex align-items-center">
+                             <img src="https://source.unsplash.com/random/2" class="rounded-circle me-2" style="width:35px;height: 35px;" alt="">
+                             <p class="m-0 text-dark">Lorem Ipsum</p>
+                         </div>
+                          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    </li>
+                    <!-- Result three -->
+                     <li class="my-4 overflow-auto">
+                      <div class="alert dropdown-item d-flex align-items-center justify-content-between p-1 m-0 fade show bg-white border-0" role="alert">
+                         <div class="d-flex align-items-center">
+                             <img src="https://source.unsplash.com/random/3" class="rounded-circle me-2" style="width:35px;height: 35px;" alt="">
+                             <p class="m-0 text-dark">Lorem Ipsum</p>
+                         </div>
+                          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    </li>
+                    
+                    </ul>
+                      
+                </div>
+             </div>
+
+             <div class="col"></div>
+             <div class="col"></div>
+            </div>
+      </div>
+  </div>
+</header>
 
 
 
