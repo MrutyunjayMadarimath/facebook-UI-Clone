@@ -1,0 +1,21 @@
+.fs-0{
+    font-size: 4rem;
+}
+
+.fs-7{
+    font-size: 0.8rem;
+}
+
+.rounded-4{
+    border-radius: 10px;
+}
+
+body{
+    background-color: #F0F2F5;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
